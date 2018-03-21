@@ -3,8 +3,8 @@
 ### Android入门
 
 ```
-**安装Android Studio遇到的问题**
-**Aapt2异常：**
+#安装Android Studio遇到的问题
+Aapt2异常:
     Error:java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details
     Error:Execution failed for task ':app:mergeDebugResources'.
     Error: java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details
@@ -17,7 +17,8 @@
 ### Support or Contact
 
 Having trouble with Pages?
-My e-mail
+
+My e-mail:
 >1183856607@qq.com
 
 I will help you sort it out.
