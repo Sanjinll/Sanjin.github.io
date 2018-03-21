@@ -2,19 +2,11 @@
 
 QQ:1183856607
 
-### 勿忘
+### Android入门
 
 ```markdown
 
-# 勿笑
-## title  
-### title
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+#安装Android Studio遇到的问题
 
 **Bold** and _Italic_ and `Code` text
 
