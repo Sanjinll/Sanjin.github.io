@@ -1,24 +1,22 @@
 ## Welcome to My Pages
 
-QQ:1183856607
-
 ### Android入门
 
 ```markdown
 
 #安装Android Studio遇到的问题
+#Aapt2异常：
+    Error:java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details
+    Error:Execution failed for task ':app:mergeDebugResources'.
+> Error: java.util.concurrent.ExecutionException: com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sanjinll/Sanjinll.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+解决方法：
+   第一步：在Gradle Scripts/gradle.properties中添加一行代码并保存：
+     android.enableAatp2=false
+   第二步：重启Android Studio
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages?
+My e-mail:1183856607@qq.com
+I will help you sort it out.
